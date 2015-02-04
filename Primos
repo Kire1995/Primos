@@ -1,0 +1,14 @@
+numeroEntero = 1
+contador = 0
+cadena = ""
+binario = 0
+resultado = ""
+
+while contador < 10 :
+    binario = bin( numeroEntero )
+    cadena = str(binario)
+    if ( cadena.count("1") % 2 != 0 ):
+        contador = contador + 1
+        resultado = binario
+    numeroEntero = numeroEntero + 1
+print resultado
