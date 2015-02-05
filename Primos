@@ -9,6 +9,6 @@ while contador < 10 :
     cadena = str(binario)
     if ( cadena.count("1") % 2 != 0 ):
         contador = contador + 1
-        resultado = binario
+        resultado = numeroEntero
     numeroEntero = numeroEntero + 1
 print resultado
